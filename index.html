@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        #contenedor {
+            margin-top: 3%;
+            margin-left: 6%;
+            margin-right: 6%;
+            text-align: justify;
+        }
+        
+        #fl {
+            width: 440px;
+            height: 300px;
+            border-radius: 60%;
+        }
+        
+        #list {
+            margin-top: 4%;
+            margin-left: 28%;
+            margin-right: 28%;
+        }
+        
+        strong {
+            color: rgb(0, 0, 0);
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Inicio</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Mensajes</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Configuracion</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-target="#registro" type="button" role="tab" aria-controls="registro" aria-selected="false" data-bs-toggle="modal">Perfil</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <br>
+                <p>La leyenda que declara la luz a la oscuridad Vela sacra de los sueños perdidos al final Deja en clara calma a mi corazón que en zelda está Zarcort Soy ese chico elegido para brillar Para propagar la luz en esta época de oscuridad Tengo
+                    a tanta gente esperanzada de mi que por muy difícil que se me hazaña yo no les puedo fallar Y no habrá nada nada que me haga mirar atrás Hyrule sera la cama caliente de mi hogar Al son de una ocarina, bajo la luz de la luna Todo el
+                    miedo de mi corazón se esfuma Me llamo Link y si he podido llegar hasta aquí Es por que necesito de ese aroma que se desprende de ti Mi princesa no te olvides de que aquí sigo Soy el héroe del tiempo que quiero pasar contigo portador
+                    de la legendaria espada maestra No hay temor, esta noche sera solo nuestra Lo que menos me preocupa es el dolor Solo una palabra me define y es valor Amelia La leyenda que declara la luz a la oscuridad Vela sacra de los sueños perdidos
+                    al final Deja en clara calma a mi corazón que en zelda está Zarcort Cabalgo con epona con la motivación De apagar el miedo de los corazones completos de amor Me llamaron Héroe cuando yo solo era un niño Descubrí que la fuerza esta
+                    en el interior Que no hay oscuridad que con la luz no amaine Que no queda sitio para la tristeza en este baile Desde el lago Hylia Hasta la montaña de la muerte No importa cual sea el recorrido para verte Se que sientes un vació profundo
+                    Pero haré lo que haga falta para salvar a este mundo Cielo,tierra,Mar y fuego No le tengo nada de miedo a la muerte Si es para salvarte primero Se que puedo y que no queda tiempo Que ha pasado de ser un juego ha sentir cada momento
+                    Se mi compañera en esta mi aventura mágica Donde solo tu podrás pasar la página Amelia La leyenda que declara la luz a la oscuridad Vela sacra de los sueños perdidos al final Deja en clara calma a mi corazón que en zelda está
+                </p>
+                <br>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <img src="../img/zelda.png" id="fl">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div id="list">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+                <div id="list">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <strong>The legend of zelda</strong>
+                          </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The Legend of Zelda es una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka,1​ y desarrollada por Nintendo, empresa que también se encarga de su distribución internacional. Su trama por lo
+                                    general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <strong>Ganondorf</strong>
+                          </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Ganondorf y de apellido Dragmire, es un personaje ficticio y antagonista principal en la saga de videojuegos The Legend Of Zelda. Es la reencarnación del heraldo de la muerte, además de un gran hechicero con una inmensa fuerza física y poder místico,
+                                    complementada con una gran astucia y resolución.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                ...</div>
+            <!-- Modal -->
+            <div class="modal fade" id="registro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Registrar Cliente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label class="form-label" for="nombre">Nombre:</label>
+                                    <input class="form-control" type="text" name="nombre" placeholder="Ingresa tu Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="apaterno">Apellido Paterno:</label>
+                                    <input class="form-control" type="text" name="apaterno" placeholder="Ingresa tu Apellido Paterno">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="amaterno">Apellido Materno:</label>
+                                    <input class="form-control" type="text" name="amaterno" placeholder="Ingresa tu Apellido Materno">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="sex">Sexo:</label>
+                                    <select class="form-select" aria-label="Default select example" name="sex">
+                                      <option value="M">Masculino</option>
+                                      <option value="F">Femenino</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="edad">Edad:</label>
+                                    <input class="form-control" type="text" name="edad" placeholder="Ingresa tu Edad">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
